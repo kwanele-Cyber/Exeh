@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Style Co.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <!--navbar-->        
+        <nav class="header-nav">
+          <div class="header-nav-container">
+            <div class="header-nav-brand">
+              <a href="index.html" class="header-nav-brand-link">Urban Style Co.</a>
+            </div>
+            <div class="header-nav-search">
+              <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            <div class="header-nav-menu">
+              <button class="header-nav-menu-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+              <ul class="header-nav-menu-items">
+                <li class="header-nav-menu-item">
+                  <a href="#">Men <i class="fas fa-chevron-down"></i></a>
+                  <ul class="header-nav-dropdown">
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Clothing</a></li>
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Shoes</a></li>
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="header-nav-menu-item">
+                  <a href="#">Women <i class="fas fa-chevron-down"></i></a>
+                  <ul class="header-nav-dropdown">
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Clothing</a></li>
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Shoes</a></li>
+                    <li class="header-nav-dropdown-item"><a href="clothing.html">Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="header-nav-menu-item"><a href="clothing.html">Sale</a></li>
+                <li class="header-nav-menu-item"><a href="about.html">About Us</a></li>
+                <li class="header-nav-menu-item"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+      
+    <!--main-->
+    <main class="main">
+        <div class="content">
+            <!--content-->
+            <h1 class="main-title">Create an Account</h1>
+            <p class="main-desc">Join Urban Style Co. and discover the latest trends in urban fashion for men and women.</p>
+        
+        </div>
+        <!--signup form-->
+        <div class="login-signup">
+            <h2 class="login-signup-title">Sign Up</h2>
+            <form>
+                <div >
+                    <label for="login-signup-firstname">First Name*</label>
+                    <input type="text" id="login-signup-firstname" class="login-signup-input" placeholder="Enter your first name" required>
+                </div>
+                <div >
+                    <label for="login-signup-lastname">Last Name*</label>
+                    <input type="text" id="login-signup-lastname" class="login-signup-input" placeholder="Enter your last name" required>
+                </div>
+                <div >
+                    <label for="login-signup-email">Email Address*</label>
+                    <input type="email" id="login-signup-email" class="login-signup-input" placeholder="Enter your email address" required>
+                </div>
+                <div >
+                    <label for="login-signup-password">Password*</label>
+                    <input type="password" id="login-signup-password" class="login-signup-input" placeholder="Enter your password" required>
+                </div>
+                <div >
+                    <label for="login-signup-confirm-password">Confirm Password*</label>
+                    <input type="password" id="login-signup-confirm-password" class="login-signup-input" placeholder="Confirm your password" required>
+                </div>
+                
+                <div class="login-signup button">
+                    <div >
+                        <label for="login-signup-newsletter">Subscribe to our newsletter</label>
+                        <input type="checkbox" id="login-signup-newsletter" class="login-signup-checkbox">
+                    </div>
+                    <button type="submit" class="login-signup-btn">Create Account</button>
+
+                    <p class="login-signup-note">By creating an account, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+                    <p class="login-signup-login-link">Already have an account? <a href="index.html">Log in here</a>.</p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <p>&copy; 2023 Urban Style Co. All rights reserved. Coded and Developed by Me</p>
+    </footer>
+</body>
+</html>
